@@ -57,14 +57,10 @@ class _Ejercicio2State extends State<Ejercicio2> {
     super.initState();
     
     Materia matematicas = Materia('Desarrollo de Software');
-    matematicas.agregarNota(8.5);
-    matematicas.agregarNota(7.0);
-    matematicas.agregarNota(9.0);
+    
 
     Materia historia = Materia('Historia');
-    historia.agregarNota(6.5);
-    historia.agregarNota(8.0);
-    historia.agregarNota(7.5);
+  
 
     estudiante.agregarMateria(matematicas);
     estudiante.agregarMateria(historia);
